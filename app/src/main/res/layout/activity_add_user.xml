@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".ui.MainActivity">
+
+        <TextView
+            android:id="@+id/txtAddProfilePic"
+            style="button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/add_user_profile_picture"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/please_enter_name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtContactNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/please_enter_phone_number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/please_enter_location"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/add_user" />
+
+    </LinearLayout>
+</layout>

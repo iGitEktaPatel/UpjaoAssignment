@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UpjaoAssignment</string>
+    <string name="add_user">Add User</string>
+    <string name="add_user_profile_picture">Add User Profile Picture</string>
+    <string name="please_enter_name">Please Enter Name</string>
+    <string name="please_enter_phone_number">Please Enter Phone Number</string>
+    <string name="please_enter_location">Please Enter Current Location</string>
+    <string name="please_choose_profile_pic">Please choose profile picture.</string>
+    <string name="no_data_found">No Data Found.</string>
+    <string name="image">image</string>
+</resources>
